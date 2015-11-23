@@ -1,0 +1,7 @@
+Language used: C++
+
+1. recommend.cpp: Our main program, this acts on the availaible user similarities found through another program and predicts movie ratings for each user and 10000 movies. Finally it gives the mean average error by comparing the predicted and the original value of the ratings.
+
+2.topNeighbours.cpp: Calculates the top neighbours of each user and stores the top 30 of each user in the text file topNeighbours.txt
+
+3.userSimilarity.cpp: Calculate the similarity between eveey pair of users using Pearson correlation and stores the similarity in userSimilarity.txt
